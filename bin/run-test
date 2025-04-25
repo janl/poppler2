@@ -1,5 +1,11 @@
 #!/bin/sh
 
+cd build
+cmake .. -DENABLE_GPGME=OFF
+make -j5
+make install
+cd ..
+
 cd regtest
 
 ./poppler-regtest create-refs --refs-dir ./refs-tests ../../test/tests/
