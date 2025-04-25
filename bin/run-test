@@ -1,6 +1,5 @@
 #!/bin/sh
-echo no
-exit 1
+
 mkdir build
 cd build
 cmake .. -DENABLE_GPGME=OFF
