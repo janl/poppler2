@@ -1,0 +1,2 @@
+buildandtest:
+	echo "hooray"
