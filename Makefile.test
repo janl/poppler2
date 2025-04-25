@@ -1,2 +1,3 @@
 buildandtest:
-	echo "hooray"
+	@echo "testing!"
+	./bin/run-test

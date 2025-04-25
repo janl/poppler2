@@ -1,0 +1,9 @@
+#!/bin/sh
+
+cd regtest
+
+./poppler-regtest create-refs --refs-dir ./refs-tests ../../test/tests/
+./poppler-regtest run-tests --refs-dir ./refs-tests -o ./out-tests ../../test/tests/
+
+./poppler-regtest create-refs --refs-dir ./refs-unittestcases ../../test/unittestcases/
+./poppler-regtest run-tests --refs-dir ./refs-unittestcases -o ./out-unittestcases ../../test/unittestcases/
