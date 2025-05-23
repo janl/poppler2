@@ -11,7 +11,6 @@ programs which call Poppler must be licensed under the GPL as well.
 See the section [History and GPL
 licensing](#history-and-gpl-licensing) for more information.
 
-
 # Source code
 
 Poppler's source code is maintained as a Git repository in
